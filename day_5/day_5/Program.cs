@@ -44,6 +44,7 @@ namespace day_5
              Console.ReadLine();
              */
 
+            /* CETURTAIS PABEIGTS (lAI PROGRAMMA STRĀDĀTU, JAIZMANTO FUNKCIJA "Abc")
             string ievade = Console.ReadLine();
             int number = Convert.ToInt16(ievade);
             int skaitlis;
@@ -51,14 +52,30 @@ namespace day_5
             Console.WriteLine("Mans skaitlis ir " + rezultats);
 
             Console.ReadLine();
+            */
 
+            Console.WriteLine("Ievadiet tekstu");
+            string teksts = Console.ReadLine();
+
+            if (teksts == "Macos programmet")
+            {
+                Console.WriteLine("BINGO");
+
+
+            }
+            else
+            {
+                Console.WriteLine("mēģini vēl");
+            }
+            Console.ReadLine();
         }
+        /*
         static int Abc(int number)
         {
             
             return number;
         }
-
+        */
 
         /*
         static int Diametrs(int radiuss)
