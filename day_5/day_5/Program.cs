@@ -53,7 +53,8 @@ namespace day_5
 
             Console.ReadLine();
             */
-
+            /* PIEKTAIS PABEIGTS
+             * 
             Console.WriteLine("Ievadiet tekstu");
             string teksts = Console.ReadLine();
 
@@ -68,6 +69,27 @@ namespace day_5
                 Console.WriteLine("mēģini vēl");
             }
             Console.ReadLine();
+            */
+
+            Console.WriteLine("Labdien vai gribat saveicinaties? (ja/ne)");
+            string atbilde = Console.ReadLine();
+
+            if (atbilde == "ja")
+            {
+                Console.WriteLine("Ievadiet lūdzu savu vārdu un uzvārdu");
+                string name;
+                name = Console.ReadLine();
+                Console.WriteLine(name);
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("žēl gan");
+            }
+
+            Console.ReadLine();
+
+
         }
         /*
         static int Abc(int number)
