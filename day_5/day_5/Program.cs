@@ -32,19 +32,35 @@ namespace day_5
             Console.ReadLine();
             */
 
-            Console.WriteLine("Ievadiet riņķa līnijas radiusu");
-            string enter = Console.ReadLine();
-            int radiuss = Convert.ToInt16(enter);
-            int a = Diametrs(radiuss);
-            double b = Laukums(radiuss);
-            Console.WriteLine("Riņķa diametrs ir " + a);
+            /* TREŠAIS PABEIGTS (lai programma strādātu, vajag izmantot funkcijas "Laukums" un "Diametrs" 
+             Console.WriteLine("Ievadiet riņķa līnijas radiusu");
+             string enter = Console.ReadLine();
+             int radiuss = Convert.ToInt16(enter);
+             int a = Diametrs(radiuss);
+             double b = Laukums(radiuss);
+             Console.WriteLine("Riņķa diametrs ir " + a);
+             Console.WriteLine("Riņķa laukums ir " + b);
 
-            Console.WriteLine("Riņķa laukums ir " + b);
-            
+             Console.ReadLine();
+             */
 
-            
+            string ievade = Console.ReadLine();
+            int number = Convert.ToInt16(ievade);
+            int skaitlis;
+            int rezultats = Abc(number);
+            Console.WriteLine("Mans skaitlis ir " + rezultats);
+
             Console.ReadLine();
+
         }
+        static int Abc(int number)
+        {
+            
+            return number;
+        }
+
+
+        /*
         static int Diametrs(int radiuss)
         {
             int lauks = radiuss * 2;
@@ -53,12 +69,12 @@ namespace day_5
         }
         static double Laukums(int radiuss)
         {
-            
             double pi = 3.14;
             double lauks = radiuss * 2 * pi;
 
             return lauks;
+        
         }
-      
+        */
     }
 }
