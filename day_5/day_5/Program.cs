@@ -14,6 +14,8 @@ namespace day_5
             Console.ReadLine();
             */
 
+            /* OTRAIS PABEIGTS
+             * 
             Console.WriteLine("Kāds šobrīid ir gads?");
             int gads = 2;
             string ievade = Console.ReadLine();
@@ -27,11 +29,36 @@ namespace day_5
             Console.Write("tavs vecums ir " );
             Console.Write(gads - dz_gads);
 
+            Console.ReadLine();
+            */
 
+            Console.WriteLine("Ievadiet riņķa līnijas radiusu");
+            string enter = Console.ReadLine();
+            int radiuss = Convert.ToInt16(enter);
+            int a = Diametrs(radiuss);
+            double b = Laukums(radiuss);
+            Console.WriteLine("Riņķa diametrs ir " + a);
 
+            Console.WriteLine("Riņķa laukums ir " + b);
+            
+
+            
             Console.ReadLine();
         }
-       
-        
+        static int Diametrs(int radiuss)
+        {
+            int lauks = radiuss * 2;
+
+            return lauks;
+        }
+        static double Laukums(int radiuss)
+        {
+            
+            double pi = 3.14;
+            double lauks = radiuss * 2 * pi;
+
+            return lauks;
+        }
+      
     }
 }
